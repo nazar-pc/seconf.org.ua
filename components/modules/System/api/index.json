@@ -1,0 +1,22 @@
+{
+	"user"		: [
+		"sign_in",
+		"sign_out",
+		"registration",
+		"change_password",
+		"restore_password"
+	],
+	"admin"		: [
+		"cache",
+		"update_module",
+		"upload_module",
+		"update_plugin",
+		"upload_plugin",
+		"update_system"
+	],
+	"profile"	: [
+		"blank",
+		"contacts"
+	],
+	"profiles"	: []
+}
