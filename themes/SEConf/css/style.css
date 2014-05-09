@@ -446,7 +446,7 @@ body > header {
       margin-top: 20px;
       text-align: center;
       text-shadow: 0 -2px 1px #301b1c; }
-      body > header h1 + p + button {
+      body > header h1 + p + a {
         background: linear-gradient(to bottom, #7cd8c4 0%, #59c8b0 100%);
         border: none;
         border-radius: 10px;
@@ -456,7 +456,10 @@ body > header {
         font-weight: bold;
         margin: 80px auto 0;
         padding: 8px 20px;
-        text-shadow: 0 -1px 1px #3b6d64; }
+        text-shadow: 0 -1px 1px #3b6d64;
+        width: 200px; }
+        body > header h1 + p + a:hover {
+          color: #fff; }
 
 /**
  * @package		CleverStyle CMS
@@ -465,52 +468,85 @@ body > header {
  * @copyright	Copyright (c) 2014, Nazar Mokrynskyi
  * @license		MIT License, see license.txt
  */
-body > section:first-of-type {
+body > section {
   margin: 0 auto;
   width: 1200px; }
-  body > section:first-of-type .cs-time-table > header {
-    text-align: center; }
-    body > section:first-of-type .cs-time-table > header p {
-      font-size: 18px;
-      margin: 20px 0; }
-    body > section:first-of-type .cs-time-table > header h3 {
-      font-weight: bold;
-      font-size: 20px;
-      text-decoration: underline; }
-    body > section:first-of-type .cs-time-table > header div {
-      margin: 60px 0; }
-      body > section:first-of-type .cs-time-table > header div img {
-        margin: 0 15px;
-        width: 88px; }
-  body > section:first-of-type .cs-time-table section article {
-    display: inline-block;
-    padding: 0 50px;
-    vertical-align: top;
-    width: 25%; }
-    body > section:first-of-type .cs-time-table section article time {
-      color: #57baa4;
-      text-transform: uppercase;
-      font-size: 22px; }
-    body > section:first-of-type .cs-time-table section article h1 {
+
+.cs-time-table header {
+  text-align: center; }
+  .cs-time-table header p {
+    font-size: 18px;
+    margin: 20px 0; }
+  .cs-time-table header h3 {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline; }
+  .cs-time-table header div {
+    margin: 60px 0; }
+    .cs-time-table header div img {
+      margin: 0 15px;
+      width: 88px; }
+.cs-time-table section article {
+  display: inline-block;
+  padding: 0 50px;
+  vertical-align: top;
+  width: 25%; }
+  .cs-time-table section article time {
+    color: #57baa4;
+    text-transform: uppercase;
+    font-size: 22px; }
+  .cs-time-table section article h1 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-top: 10px;
+    text-transform: uppercase; }
+  .cs-time-table section article p {
+    color: #706f71; }
+  .cs-time-table section article:nth-child(2) time {
+    color: #4c88a4; }
+  .cs-time-table section article:nth-child(3) time {
+    color: #ac5d67; }
+  .cs-time-table section article:nth-child(4) {
+    padding: 0; }
+    .cs-time-table section article:nth-child(4) h2 {
+      color: #d6c359;
       font-size: 22px;
-      font-weight: bold;
-      line-height: 24px;
-      margin-top: 10px;
       text-transform: uppercase; }
-    body > section:first-of-type .cs-time-table section article p {
-      color: #706f71; }
-    body > section:first-of-type .cs-time-table section article:nth-child(2) time {
-      color: #4c88a4; }
-    body > section:first-of-type .cs-time-table section article:nth-child(3) time {
-      color: #ac5d67; }
-    body > section:first-of-type .cs-time-table section article:nth-child(4) {
-      padding: 0; }
-      body > section:first-of-type .cs-time-table section article:nth-child(4) h2 {
-        color: #d6c359;
-        font-size: 22px;
-        text-transform: uppercase; }
-  body > section:first-of-type .cs-organizers div {
-    text-align: center; }
-    body > section:first-of-type .cs-organizers div p {
-      line-height: 70px;
-      vertical-align: middle; }
+
+.cs-organizers div {
+  text-align: center; }
+  .cs-organizers div p {
+    line-height: 70px;
+    vertical-align: middle; }
+
+.cs-pre-location {
+  background: #4c88a4;
+  height: 440px;
+  margin: 30px 0 -440px;
+  z-index: -1; }
+
+.cs-location {
+  color: #f4f5f6;
+  height: 440px; }
+  .cs-location article {
+    padding-top: 40px; }
+    .cs-location article h1 {
+      font-size: 18px;
+      line-height: 20px; }
+    .cs-location article:first-of-type p {
+      font-weight: bold;
+      margin-top: -10px; }
+    .cs-location article:first-of-type div {
+      margin-top: 30px; }
+      .cs-location article:first-of-type div a {
+        font-weight: bold; }
+    .cs-location article:last-of-type h1 {
+      color: #56cfbf; }
+    .cs-location article:last-of-type a {
+      font-weight: bold; }
+      .cs-location article:last-of-type a[href] {
+        text-decoration: underline; }
+    .cs-location article:last-of-type span {
+      color: #add3f9;
+      display: block; }

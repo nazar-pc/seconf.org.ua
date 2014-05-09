@@ -116,7 +116,7 @@ body > header {
 			text-align  : center;
 			text-shadow : 0 -2px 1px #301b1c;
 
-			& + button {
+			& + a {
 				background    : linear-gradient(to bottom, #7cd8c4 0%, #59c8b0 100%);
 				border        : none;
 				border-radius : 10px;
@@ -127,6 +127,11 @@ body > header {
 				margin        : 80px auto 0;
 				padding       : 8px 20px;
 				text-shadow   : 0 -1px 1px #3b6d64;
+				width         : 200px;
+
+				&:hover {
+					color : #fff;
+				}
 			}
 		}
 	}
