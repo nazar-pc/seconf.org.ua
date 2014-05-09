@@ -1,0 +1,133 @@
+/**
+ * @package		CleverStyle CMS
+ * @subpackage	CleverStyle theme
+ * @author		Nazar Mokrynskyi <nazar@mokrynskyi.com>
+ * @copyright	Copyright (c) 2011-2014, Nazar Mokrynskyi
+ * @license		MIT License, see license.txt
+ */
+
+//Header
+body > header {
+	height : 700px;
+	margin : 0 auto;
+	width  : 1200px;
+
+	.cs-video-container {
+		height   : 700px;
+		left     : 0;
+		overflow : hidden;
+		position : absolute;
+		right    : 0;
+		z-index  : -1;
+
+		&:before {
+			background : rgba(193, 95, 95, .3);
+			content    : '';
+			display    : block;
+			height     : 700px;
+			left       : 0;
+			position   : absolute;
+			right      : 0;
+			width      : 100%;
+		}
+
+		video {
+			min-height : 700px;
+			min-width  : 100%;
+		}
+	}
+
+	nav {
+		height : 74px;
+
+		&:before {
+			background : rgba(8, 8, 8, .4);
+			content    : '';
+			display    : block;
+			height     : 74px;
+			left       : 0;
+			position   : absolute;
+			right      : 0;
+			width      : 100%;
+			z-index    : -1;
+		}
+
+		> * {
+			color      : #f4f3f3;
+			margin-top : 30px !important;
+			text-align : center;
+
+			&:hover {
+				color           : #f4f3f3;
+				text-decoration : underline;
+			}
+
+			&:last-child {
+				text-align : right;
+			}
+		}
+
+		.cs-logo {
+			margin-top : 18px !important;
+
+			&:before {
+				background : url(../img/header-logo.png);
+				content    : '';
+				display    : inline-block;
+				height     : 34px;
+				width      : 147px;
+			}
+		}
+
+		.cs-registration {
+			font-weight : bold;
+		}
+
+		.cs-social {
+			&:hover {
+				text-decoration : none;
+			}
+
+			a {
+				color        : #d2cccc;
+				font-size    : 22px;
+				padding-left : 20px;
+
+				&:hover {
+					color : #e8e5e5;
+				}
+			}
+		}
+	}
+
+	h1 {
+		color          : #fff;
+		font-size      : 32px;
+		letter-spacing : 0.1em;
+		margin         : 145px auto 0;
+		text-align     : center;
+		text-shadow    : 0 -3px 2px #301b1c;
+		width          : 595px;
+
+		& + p {
+			color       : #fff;
+			font-size   : 18px;
+			margin-top  : 20px;
+			text-align  : center;
+			text-shadow : 0 -2px 1px #301b1c;
+
+			& + button {
+				background    : linear-gradient(to bottom, #7cd8c4 0%, #59c8b0 100%);
+				border        : none;
+				border-radius : 10px;
+				color         : #fff;
+				display       : block;
+				font-size     : 18px;
+				font-weight   : bold;
+				margin        : 80px auto 0;
+				padding       : 8px 20px;
+				text-shadow   : 0 -1px 1px #3b6d64;
+			}
+		}
+	}
+}
