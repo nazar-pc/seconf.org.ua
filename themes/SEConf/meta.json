@@ -1,7 +1,7 @@
 {
-	"package"				: "CleverStyle",
+	"package"				: "SEConf",
 	"category"				: "themes",
-	"description"			: "Stock theme for CleverStyle CMS",
+	"description"			: "Theme for SEConf.org.ua",
 	"author"				: "Nazar Mokrynskyi",
 	"website"				: "cleverstyle.org/cms",
 	"license"				: "MIT License"

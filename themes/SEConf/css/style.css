@@ -340,9 +340,9 @@ a {
 
 /**
  * @package		CleverStyle CMS
- * @subpackage	CleverStyle theme
+ * @subpackage	SEConf theme
  * @author		Nazar Mokrynskyi <nazar@mokrynskyi.com>
- * @copyright	Copyright (c) 2011-2014, Nazar Mokrynskyi
+ * @copyright	Copyright (c) 2014, Nazar Mokrynskyi
  * @license		MIT License, see license.txt
  */
 /**
@@ -363,62 +363,11 @@ body {
   padding: 0;
   width: 100%; }
 
-#body {
-  border-radius: 10px;
-  margin: 7px;
-  padding: 5px 0; }
-  #body:after {
-    content: '';
-    clear: both;
-    display: block; }
-
-#left_blocks, #right_blocks {
-  float: left;
-  padding: 0 5px;
-  vertical-align: top;
-  width: 15%; }
-
-#right_blocks {
-  float: right;
-  width: 15%; }
-
-#top_blocks, #main_content,
-#bottom_blocks {
-  margin-left: 15%;
-  margin-right: 15%; }
-
-#main_content {
-  border-radius: 7px;
-  margin-top: 3px;
-  padding: 10px;
-  vertical-align: top; }
-  #main_content > div {
-    border-radius: 5px;
-    float: left;
-    padding: 10px;
-    height: 100%;
-    width: 100%; }
-  #main_content:after {
-    content: '';
-    clear: both;
-    display: block; }
-
-body > footer {
-  margin: 0;
-  text-align: center;
-  width: 100%; }
-  body > footer a {
-    text-decoration: underline; }
-  body > footer div:first-child {
-    padding: .5em .5em 0; }
-  body > footer div:last-child {
-    padding: 0 .5em .5em; }
-
 /**
  * @package		CleverStyle CMS
- * @subpackage	CleverStyle theme
+ * @subpackage	SEConf theme
  * @author		Nazar Mokrynskyi <nazar@mokrynskyi.com>
- * @copyright	Copyright (c) 2011-2014, Nazar Mokrynskyi
+ * @copyright	Copyright (c) 2014, Nazar Mokrynskyi
  * @license		MIT License, see license.txt
  */
 body > header {
@@ -508,3 +457,60 @@ body > header {
         margin: 80px auto 0;
         padding: 8px 20px;
         text-shadow: 0 -1px 1px #3b6d64; }
+
+/**
+ * @package		CleverStyle CMS
+ * @subpackage	SEConf theme
+ * @author		Nazar Mokrynskyi <nazar@mokrynskyi.com>
+ * @copyright	Copyright (c) 2014, Nazar Mokrynskyi
+ * @license		MIT License, see license.txt
+ */
+body > section:first-of-type {
+  margin: 0 auto;
+  width: 1200px; }
+  body > section:first-of-type .cs-time-table > header {
+    text-align: center; }
+    body > section:first-of-type .cs-time-table > header p {
+      font-size: 18px;
+      margin: 20px 0; }
+    body > section:first-of-type .cs-time-table > header h3 {
+      font-weight: bold;
+      font-size: 20px;
+      text-decoration: underline; }
+    body > section:first-of-type .cs-time-table > header div {
+      margin: 60px 0; }
+      body > section:first-of-type .cs-time-table > header div img {
+        margin: 0 15px;
+        width: 88px; }
+  body > section:first-of-type .cs-time-table section article {
+    display: inline-block;
+    padding: 0 50px;
+    vertical-align: top;
+    width: 25%; }
+    body > section:first-of-type .cs-time-table section article time {
+      color: #57baa4;
+      text-transform: uppercase;
+      font-size: 22px; }
+    body > section:first-of-type .cs-time-table section article h1 {
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 24px;
+      margin-top: 10px;
+      text-transform: uppercase; }
+    body > section:first-of-type .cs-time-table section article p {
+      color: #706f71; }
+    body > section:first-of-type .cs-time-table section article:nth-child(2) time {
+      color: #4c88a4; }
+    body > section:first-of-type .cs-time-table section article:nth-child(3) time {
+      color: #ac5d67; }
+    body > section:first-of-type .cs-time-table section article:nth-child(4) {
+      padding: 0; }
+      body > section:first-of-type .cs-time-table section article:nth-child(4) h2 {
+        color: #d6c359;
+        font-size: 22px;
+        text-transform: uppercase; }
+  body > section:first-of-type .cs-organizers div {
+    text-align: center; }
+    body > section:first-of-type .cs-organizers div p {
+      line-height: 70px;
+      vertical-align: middle; }
