@@ -526,8 +526,7 @@ body > section {
       .cs-time-table section article:nth-child(4) div img {
         left: 35px;
         position: absolute;
-        top: 6px;
-        width: 27px; }
+        top: 6px; }
       .cs-time-table section article:nth-child(4) div a {
         color: #4c88a4;
         display: block;
