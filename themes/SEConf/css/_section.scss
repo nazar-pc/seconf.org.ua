@@ -87,6 +87,11 @@ body > section {
 
 					&:first-of-type {
 						margin-top : 65px;
+
+						a {
+							display       : block;
+							margin-bottom : 10px;
+						}
 					}
 
 					&:last-of-type a {

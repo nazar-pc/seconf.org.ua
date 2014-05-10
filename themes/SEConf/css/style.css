@@ -521,6 +521,9 @@ body > section {
       position: relative; }
       .cs-time-table section article:nth-child(4) div:first-of-type {
         margin-top: 65px; }
+        .cs-time-table section article:nth-child(4) div:first-of-type a {
+          display: block;
+          margin-bottom: 10px; }
       .cs-time-table section article:nth-child(4) div:last-of-type a {
         color: #a44c57; }
       .cs-time-table section article:nth-child(4) div img {
