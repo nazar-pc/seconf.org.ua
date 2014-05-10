@@ -1,0 +1,41 @@
+/**
+ * @package		CleverStyle CMS
+ * @subpackage	SEConf theme
+ * @author		Nazar Mokrynskyi <nazar@mokrynskyi.com>
+ * @copyright	Copyright (c) 2014, Nazar Mokrynskyi
+ * @license		MIT License, see license.txt
+ */
+
+.cs-pre-footer {
+	background : #dedddd;
+	height     : 147px;
+	margin     : 30px 0 -147px;
+	z-index    : -1;
+}
+
+body > footer {
+	color       : #626060;
+	font-size   : 11px;
+	margin      : 0 auto;
+	padding-top : 25px;
+	width       : 1200px;
+
+	div > div {
+		&:first-child {
+			color       : #fff;
+			padding-top : 40px;
+		}
+
+		&:nth-child(2) {
+			padding-top : 15px;
+		}
+
+		p {
+			margin : 0 0 5px;
+
+			a {
+				text-decoration : underline;
+			}
+		}
+	}
+}

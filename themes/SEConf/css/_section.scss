@@ -78,12 +78,43 @@ body > section {
 					font-size      : 22px;
 					text-transform : uppercase;
 				}
+
+				div {
+					color        : #292929;
+					margin-top   : 10px;
+					padding-left : 90px;
+					position     : relative;
+
+					&:first-of-type {
+						margin-top : 65px;
+					}
+
+					&:last-of-type a {
+						color : #a44c57;
+					}
+
+					img {
+						left     : 35px;
+						position : absolute;
+						top      : 6px;
+						width    : 27px;
+					}
+
+					a {
+						color           : #4c88a4;
+						display         : block;
+						font-size       : 14px;
+						text-decoration : underline;
+					}
+				}
 			}
 		}
 	}
 }
 
 .cs-organizers {
+	margin-top : 20px;
+
 	div {
 		text-align : center;
 

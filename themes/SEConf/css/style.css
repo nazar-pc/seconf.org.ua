@@ -514,12 +514,33 @@ body > section {
       color: #d6c359;
       font-size: 22px;
       text-transform: uppercase; }
+    .cs-time-table section article:nth-child(4) div {
+      color: #292929;
+      margin-top: 10px;
+      padding-left: 90px;
+      position: relative; }
+      .cs-time-table section article:nth-child(4) div:first-of-type {
+        margin-top: 65px; }
+      .cs-time-table section article:nth-child(4) div:last-of-type a {
+        color: #a44c57; }
+      .cs-time-table section article:nth-child(4) div img {
+        left: 35px;
+        position: absolute;
+        top: 6px;
+        width: 27px; }
+      .cs-time-table section article:nth-child(4) div a {
+        color: #4c88a4;
+        display: block;
+        font-size: 14px;
+        text-decoration: underline; }
 
-.cs-organizers div {
-  text-align: center; }
-  .cs-organizers div p {
-    line-height: 70px;
-    vertical-align: middle; }
+.cs-organizers {
+  margin-top: 20px; }
+  .cs-organizers div {
+    text-align: center; }
+    .cs-organizers div p {
+      line-height: 70px;
+      vertical-align: middle; }
 
 .cs-pre-location {
   background: #4c88a4;
@@ -593,3 +614,32 @@ body > section {
   opacity: 1; }
 .cs-speakers-companies .cs-companies article a {
   padding-bottom: 3px; }
+
+/**
+ * @package		CleverStyle CMS
+ * @subpackage	SEConf theme
+ * @author		Nazar Mokrynskyi <nazar@mokrynskyi.com>
+ * @copyright	Copyright (c) 2014, Nazar Mokrynskyi
+ * @license		MIT License, see license.txt
+ */
+.cs-pre-footer {
+  background: #dedddd;
+  height: 147px;
+  margin: 30px 0 -147px;
+  z-index: -1; }
+
+body > footer {
+  color: #626060;
+  font-size: 11px;
+  margin: 0 auto;
+  padding-top: 25px;
+  width: 1200px; }
+  body > footer div > div:first-child {
+    color: #fff;
+    padding-top: 40px; }
+  body > footer div > div:nth-child(2) {
+    padding-top: 15px; }
+  body > footer div > div p {
+    margin: 0 0 5px; }
+    body > footer div > div p a {
+      text-decoration: underline; }
