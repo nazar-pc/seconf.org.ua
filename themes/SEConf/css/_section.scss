@@ -58,7 +58,8 @@ body > section {
 			}
 
 			p {
-				color : #706f71;
+				color       : #706f71;
+				font-family : "Open Sans Light";
 			}
 
 			&:nth-child(2) time {
@@ -186,7 +187,7 @@ body > section {
 				content     : attr(data-company);
 				display     : block;
 				font-weight : bold;
-				margin      : -140px 0 123px;
+				margin      : -140px 0 125px;
 				opacity     : 0;
 				position    : relative;
 				text-align  : center;
@@ -203,6 +204,12 @@ body > section {
 			&:hover:after {
 				opacity : 1;
 			}
+		}
+	}
+
+	.cs-companies {
+		article a {
+			padding-bottom : 3px;
 		}
 	}
 }

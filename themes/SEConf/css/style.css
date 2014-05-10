@@ -502,7 +502,8 @@ body > section {
     margin-top: 10px;
     text-transform: uppercase; }
   .cs-time-table section article p {
-    color: #706f71; }
+    color: #706f71;
+    font-family: "Open Sans Light"; }
   .cs-time-table section article:nth-child(2) time {
     color: #4c88a4; }
   .cs-time-table section article:nth-child(3) time {
@@ -580,7 +581,7 @@ body > section {
   content: attr(data-company);
   display: block;
   font-weight: bold;
-  margin: -140px 0 123px;
+  margin: -140px 0 125px;
   opacity: 0;
   position: relative;
   text-align: center;
@@ -590,3 +591,5 @@ body > section {
   transition: opacity linear 0.2s; }
 .cs-speakers-companies .cs-speakers figure:hover:before, .cs-speakers-companies .cs-speakers figure:hover:after {
   opacity: 1; }
+.cs-speakers-companies .cs-companies article a {
+  padding-bottom: 3px; }
