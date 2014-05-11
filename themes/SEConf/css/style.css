@@ -456,6 +456,7 @@ body > header {
         font-weight: bold;
         margin: 80px auto 0;
         padding: 8px 20px;
+        text-align: center;
         text-shadow: 0 -1px 1px #3b6d64;
         width: 200px; }
         body > header h1 + p + a:hover {
