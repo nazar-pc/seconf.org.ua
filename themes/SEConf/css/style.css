@@ -477,7 +477,7 @@ body > section {
   .cs-time-table header p {
     font-size: 18px;
     margin: 20px 0; }
-  .cs-time-table header h3 {
+  .cs-time-table header a {
     font-weight: bold;
     font-size: 20px;
     text-decoration: underline; }
