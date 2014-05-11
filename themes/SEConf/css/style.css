@@ -403,12 +403,13 @@ body > header {
       left: 0;
       position: absolute;
       right: 0;
-      width: 100%;
-      z-index: -1; }
+      width: 100%; }
     body > header nav > * {
       color: #f4f3f3;
       margin-top: 30px !important;
-      text-align: center; }
+      position: relative;
+      text-align: center;
+      z-index: 1; }
       body > header nav > *:hover {
         color: #f4f3f3;
         text-decoration: underline; }
