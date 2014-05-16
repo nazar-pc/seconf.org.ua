@@ -18,6 +18,7 @@ body > header {
 		overflow : hidden;
 		position : absolute;
 		right    : 0;
+		top      : 0;
 		z-index  : -1;
 
 		&:before {
@@ -38,7 +39,10 @@ body > header {
 	}
 
 	nav {
-		height : 74px;
+		height   : 74px;
+		position : fixed;
+		top      : 0;
+		width    : 1200px;
 
 		&:before {
 			background : rgba(8, 8, 8, .4);
@@ -46,7 +50,7 @@ body > header {
 			display    : block;
 			height     : 74px;
 			left       : 0;
-			position   : absolute;
+			position   : fixed;
 			right      : 0;
 			width      : 100%;
 		}
@@ -69,7 +73,7 @@ body > header {
 		}
 
 		.cs-logo {
-			margin-top : 18px !important;
+			margin-top : -12px !important;
 
 			&:before {
 				background : url(../img/header-logo.png);
@@ -105,7 +109,8 @@ body > header {
 		color          : #fff;
 		font-size      : 32px;
 		letter-spacing : 0.1em;
-		margin         : 145px auto 0;
+		margin         : 70px auto 0;
+		padding-top    : 75px;
 		text-align     : center;
 		text-shadow    : 0 -1px 1px #9B6F71;
 		width          : 595px;

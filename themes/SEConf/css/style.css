@@ -380,6 +380,7 @@ body > header {
     overflow: hidden;
     position: absolute;
     right: 0;
+    top: 0;
     z-index: -1; }
     body > header .cs-video-container:before {
       background: rgba(193, 95, 95, 0.3);
@@ -394,14 +395,17 @@ body > header {
       min-height: 700px;
       min-width: 100%; }
   body > header nav {
-    height: 74px; }
+    height: 74px;
+    position: fixed;
+    top: 0;
+    width: 1200px; }
     body > header nav:before {
       background: rgba(8, 8, 8, 0.4);
       content: '';
       display: block;
       height: 74px;
       left: 0;
-      position: absolute;
+      position: fixed;
       right: 0;
       width: 100%; }
     body > header nav > * {
@@ -416,7 +420,7 @@ body > header {
       body > header nav > *:last-child {
         text-align: right; }
     body > header nav .cs-logo {
-      margin-top: 18px !important; }
+      margin-top: -12px !important; }
       body > header nav .cs-logo:before {
         background: url(../img/header-logo.png);
         content: '';
@@ -437,7 +441,8 @@ body > header {
     color: #fff;
     font-size: 32px;
     letter-spacing: 0.1em;
-    margin: 145px auto 0;
+    margin: 70px auto 0;
+    padding-top: 75px;
     text-align: center;
     text-shadow: 0 -1px 1px #9B6F71;
     width: 595px; }
