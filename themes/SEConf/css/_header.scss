@@ -40,10 +40,9 @@ body > header {
 
 	nav {
 		height      : 74px;
-		margin-left : -35px;
 		position    : fixed;
 		top         : 0;
-		width       : 1235px;
+		width       : 1200px;
 
 		&:before {
 			background : rgba(8, 8, 8, .4);
@@ -56,7 +55,7 @@ body > header {
 			width      : 100%;
 		}
 
-		> * {
+		> div > * {
 			color      : #f4f3f3;
 			margin-top : 30px !important;
 			position   : relative;
@@ -74,7 +73,7 @@ body > header {
 		}
 
 		.cs-logo {
-			margin-top : -12px !important;
+			margin-top : 18px !important;
 
 			&:before {
 				background : url(../img/header-logo.png);

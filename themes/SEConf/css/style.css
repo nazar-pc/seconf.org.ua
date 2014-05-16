@@ -396,10 +396,9 @@ body > header {
       min-width: 100%; }
   body > header nav {
     height: 74px;
-    margin-left: -35px;
     position: fixed;
     top: 0;
-    width: 1235px; }
+    width: 1200px; }
     body > header nav:before {
       background: rgba(8, 8, 8, 0.4);
       content: '';
@@ -409,19 +408,19 @@ body > header {
       position: fixed;
       right: 0;
       width: 100%; }
-    body > header nav > * {
+    body > header nav > div > * {
       color: #f4f3f3;
       margin-top: 30px !important;
       position: relative;
       text-align: center;
       z-index: 1; }
-      body > header nav > *:hover {
+      body > header nav > div > *:hover {
         color: #f4f3f3;
         text-decoration: underline; }
-      body > header nav > *:last-child {
+      body > header nav > div > *:last-child {
         text-align: right; }
     body > header nav .cs-logo {
-      margin-top: -12px !important; }
+      margin-top: 18px !important; }
       body > header nav .cs-logo:before {
         background: url(../img/header-logo.png);
         content: '';
