@@ -396,9 +396,10 @@ body > header {
       min-width: 100%; }
   body > header nav {
     height: 74px;
+    margin-left: -35px;
     position: fixed;
     top: 0;
-    width: 1200px; }
+    width: 1235px; }
     body > header nav:before {
       background: rgba(8, 8, 8, 0.4);
       content: '';
@@ -441,8 +442,8 @@ body > header {
     color: #fff;
     font-size: 32px;
     letter-spacing: 0.1em;
-    margin: 70px auto 0;
-    padding-top: 75px;
+    margin: 0 auto;
+    padding-top: 220px;
     text-align: center;
     text-shadow: 0 -1px 1px #9B6F71;
     width: 595px; }
