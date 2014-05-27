@@ -624,6 +624,23 @@ body > section {
 .cs-speakers-companies .cs-companies article a {
   padding-bottom: 3px; }
 
+.cs-sponsors {
+  padding: 50px 0;
+  text-align: center; }
+  .cs-sponsors h1 {
+    font-size: 28px; }
+  .cs-sponsors h2 {
+    font-size: 22px; }
+  .cs-sponsors div {
+    margin-top: 50px; }
+    .cs-sponsors div a {
+      height: 115px;
+      line-height: 115px; }
+      .cs-sponsors div a img {
+        vertical-align: middle; }
+  .cs-sponsors h3 {
+    margin-top: 70px; }
+
 /**
  * @package		CleverStyle CMS
  * @subpackage	SEConf theme

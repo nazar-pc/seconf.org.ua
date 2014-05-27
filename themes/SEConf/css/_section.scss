@@ -248,3 +248,33 @@ body > section {
 		}
 	}
 }
+
+.cs-sponsors {
+	padding    : 50px 0;
+	text-align : center;
+
+	h1 {
+		font-size : 28px;
+	}
+
+	h2 {
+		font-size : 22px;
+	}
+
+	div {
+		margin-top : 50px;
+
+		a {
+			height      : 115px;
+			line-height : 115px;
+
+			img {
+				vertical-align : middle;
+			}
+		}
+	}
+
+	h3 {
+		margin-top : 70px;
+	}
+}
