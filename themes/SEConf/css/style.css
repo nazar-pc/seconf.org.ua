@@ -638,6 +638,9 @@ body > section {
       line-height: 115px; }
       .cs-sponsors div a img {
         vertical-align: middle; }
+  .cs-sponsors .prize a {
+    display: inline-block;
+    margin: 0 20px; }
   .cs-sponsors h3 {
     margin-top: 70px; }
 
